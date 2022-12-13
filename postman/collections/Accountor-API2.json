@@ -12737,7 +12737,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{companyRegisterHostRider}}/api/v{{version}}/companies",
+											"raw": "{{companyRegisterHostRider}}/api/v{{version}}/companies?Klucz=wartosc",
 											"host": [
 												"{{companyRegisterHostRider}}"
 											],
@@ -12745,6 +12745,13 @@
 												"api",
 												"v{{version}}",
 												"companies"
+											],
+											"query": [
+												{
+													"key": "Klucz",
+													"value": "wartosc",
+													"type": "text"
+												}
 											]
 										}
 									},
